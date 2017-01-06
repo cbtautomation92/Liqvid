@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <listeners>
+   	 <listener class-name="com.liqvid.library.TestngListener" />
+     <listener class-name="com.kirwa.nxgreport.listners.NXGTestListner"></listener>
+  </listeners> 
+<!--   <test name="Regression" preserve-order="true">
+    <classes>
+       <class name="com.liqvid.scripts.RegistrationTest"/>
+ 	   <class name="com.liqvid.scripts.AdminTest"/>
+ 	   <class name="com.liqvid.scripts.StudentTest"/>
+ 	   <class name="com.liqvid.scripts.TeacherTest"/>
+     </classes>
+   </test>   --> 
+   <test name="Regression" preserve-order="true">
+    <classes>
+       <class name="com.liqvid.scripts.AdminTest"/>
+
+     </classes>
+   </test> 
+</suite> 

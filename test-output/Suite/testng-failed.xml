@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.liqvid.library.TestngListener"/>
+    <listener class-name="com.kirwa.nxgreport.listners.NXGTestListner"/>
+  </listeners>
+  <test name="Regression">
+    <classes>
+      <class name="com.liqvid.scripts.AdminTest"/>
+    </classes>
+  </test> <!-- Regression -->
+  <test name="Regression(failed)">
+    <classes>
+      <class name="com.liqvid.scripts.AdminTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="adminValidLogin"/>
+        </methods>
+      </class> <!-- com.liqvid.scripts.AdminTest -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [Suite] -->

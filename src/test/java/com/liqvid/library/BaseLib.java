@@ -21,7 +21,7 @@ public class BaseLib {
 	public void setUp(){
 		try{
 		if(GenericLib.getCongigValue(GenericLib.sConfigFile, "BROWSER").equalsIgnoreCase("Chrome")){
-			System.setProperty("webdriver.chrome.driver","C:\\Program Files (x86)\\Jenkins\\plugins\\chromedriver\\WEB-INF\\lib\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver",GenericLib.sDirPath+"\\resources\\chromedriver.exe");
 			System.out.println("Chrome Browser is set");
 			driver = new ChromeDriver();
 		}else if(GenericLib.getCongigValue(GenericLib.sConfigFile, "BROWSER").equalsIgnoreCase("Firefox"))

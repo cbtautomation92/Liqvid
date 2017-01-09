@@ -63,9 +63,5 @@ public class SampleTest extends BaseLib  {
         driver.quit();
 		
 	}
-	@Test(priority=2,enabled=true, description="To Verify the display of Elements in Auditor Login Page")
-	public void test1(){
-		
-	}
 
 }

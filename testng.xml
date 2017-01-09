@@ -15,7 +15,7 @@
    </test>   --> 
    <test name="Regression" preserve-order="true">
     <classes>
-       <class name="com.liqvid.scripts.AdminTest"/>
+       <class name="com.liqvid.scripts.SampleTest"/>
 
      </classes>
    </test> 

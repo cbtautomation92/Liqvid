@@ -36,7 +36,7 @@ import com.liqvid.po.TeacherHomePO;
 import com.liqvid.po.TeacherProfilePO;
 import com.liqvid.po.TeacherRegistrationPO;
 
-public class AdminTest  extends BaseLib{
+public class AdminTest123456789012123  extends BaseLib{
 
 	LoginPO loginPo = null;
 	AdminHomePO adminHomePo = null;
